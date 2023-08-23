@@ -1,12 +1,12 @@
         hr {
             width: 600px;
             color:#003049;
-        }
+      }
 
         a:link, a:visited {
-            color:#5BB3E1;
-        }
-        
+        color:#003568;
+      }
+
          body {
          padding-left: 300px;
          padding-right: 300px;
@@ -34,7 +34,21 @@
         border: 15px solid #777D9B;
      }
         .head {
-          margin: auto;
-         background-color: #9fa4bf;
+        margin: auto;
+        background-color: #9fa4bf;
         border: 15px solid #959bba;
+     }
+        .bandmember {
+        display: flex;
+        align: auto;
+        padding: 5px;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: center; 
+     }
+        table, th, td {
+        border: 1px solid;
+     }
+        .names { 
+        font-weight: bold; 
      }
